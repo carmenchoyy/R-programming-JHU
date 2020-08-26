@@ -43,7 +43,7 @@ complete<-function(directory,id=1:332){
   #created df to store monitor ID and number of rows
   colnames(df)<-c("id","nobs")
   
-  View(df)
+  df
 }
 
 
